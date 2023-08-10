@@ -8,7 +8,7 @@ const App = () => {
     <div className='w-screen min-h-screen bg-slate-200 pb-10'>
       <BrowserRouter> {/* add basename="/atm" attribute here*/}
         <AppBar />
-        <div className="-mt-20"></div>
+        <div className="-mt-20">
           <Routes>
             <Route path="/" element={<RouteComponent />} />
           </Routes>
