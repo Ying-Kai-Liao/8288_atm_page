@@ -6,9 +6,9 @@ import AppBar from './components/appbar/AppBar';
 const App = () => {
   return (
     <div className='w-screen min-h-screen bg-slate-200 pb-10'>
-      <BrowserRouter basename="/atm">
+      <BrowserRouter> {/* add basename="/atm" attribute here*/}
         <AppBar />
-        <div className="-mt-20">
+        <div className="-mt-20"></div>
           <Routes>
             <Route path="/" element={<RouteComponent />} />
           </Routes>
